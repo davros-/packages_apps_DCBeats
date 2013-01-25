@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources  xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">DEMENTEDBeats</string>
+    <string name="app_name">DC Beats</string>
     <string name="select_configuration_title">Select Configuration To Edit</string>
     <string name="headset_title">Headset</string>
     <string name="speaker_title">Speaker</string>
@@ -95,9 +95,9 @@
     <string name="pref_wm8994_fll_tuning_summary">Use tuned WM8994 audio clock source &#8212; improves quality of sound</string>
 
     <string name="help_title">User guide</string>
-    <string name="help_text"><b>What is DEMENTEDBeats?</b>
+    <string name="help_text"><b>What is DC Beats?</b>
 \n
-\nDEMENTEDBeats is a per-output audio adjustment application. <i>DSP</i> stands for
+\nDC Beats is a per-output audio adjustment application. <i>DSP</i> stands for
 Digital Signal Processing, and the <i>Manager</i> part refers to the fact that the
 DSP is actually not ran inside the application itself; the manager can only
 enable it for applications which are compliant with Android\'s audio effect
@@ -107,13 +107,13 @@ specification, i.e. most music players.
 \n
 \nCyanogenMod\'s audio processing supports three different output categories:
 wired headset, phone speaker and bluetooth headset. There is a separate
-configuration panel for each output category.  DEMENTEDBeats\'s philosophy is to
+configuration panel for each output category.  DC Beats\'s philosophy is to
 correct each audio output\'s particular deficiencies in order to reach the most
 optimal listening experience with each.
 \n
 \nUnlike with AOSP audio effects, there are no per-application settings. This is
 a deliberate design choice: it is the output we care about, not which
-application generates the audio for DEMENTEDBeats to work with.
+application generates the audio for DC Beats to work with.
 \n
 \n<b>Features</b>
 \n
@@ -127,7 +127,7 @@ listener and drives a gain control based on this estimate. The primary use case
 is with noisy environments such as in cars or on street, where quiet parts of
 music are in risk of being drowned out by background noise.
 \n
-\nThe sole tunable determines how hard DEMENTEDBeats will try to maintain audio
+\nThe sole tunable determines how hard DC Beats will try to maintain audio
 loudness at the target level. There is no AOSP equivalent for this DSP effect.
 \n
 \n2. <b>Bass Boost</b>

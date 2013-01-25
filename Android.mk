@@ -12,7 +12,7 @@ LOCAL_STATIC_JAVA_LIBRARIES := android-support-v13
 
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 
-LOCAL_PACKAGE_NAME := DEMENTEDBeats
+LOCAL_PACKAGE_NAME := DC Beats
 LOCAL_CERTIFICATE := platform
 
 LOCAL_OVERRIDES_PACKAGES := MusicFX
